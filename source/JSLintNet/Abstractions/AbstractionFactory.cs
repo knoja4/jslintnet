@@ -18,5 +18,10 @@
         {
             return new JavaScriptContext();
         }
+
+        public IBrowserContext CreateBrowserContext()
+        {
+            return new BrowserContext();
+        }
     }
 }
